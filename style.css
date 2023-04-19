@@ -1,3 +1,14 @@
+/* Reset Default */
+
+input,
+button {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* Basic Style */
 
 .body {
@@ -49,15 +60,6 @@
 .main__task-list {
   margin: 0;
   padding: 0px;
-}
-
-.task-list__item {
-  list-style: none;
-}
-
-input,
-button {
-  outline: none;
 }
 
 .add-task-section__button,
