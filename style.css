@@ -62,7 +62,7 @@ li {
   padding: 0px;
 }
 
-.add-task-section__button,
+.content__add-button,
 .task-list__button {
   background: none;
   border: 0px;
@@ -73,7 +73,7 @@ li {
   cursor: pointer;
 }
 
-.add-task-section__button:hover,
+.content__add-button:hover,
 .task-list__button:hover {
   color: #3a3a3a;
 }
