@@ -57,7 +57,7 @@ li {
   display: flex;
 }
 
-.main__task-list {
+.task-list {
   margin: 0;
   padding: 0px;
 }
@@ -80,7 +80,7 @@ li {
 
 /* Heading */
 
-.main__heading,
+.section__heading,
 .add-task-section__label {
   color: #333;
   font-weight: 700;
@@ -161,14 +161,14 @@ li {
 
 /* Completed */
 
-.main__task-list--completed .task-list__label {
+.task-list--completed .task-list__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.main__task-list .task-list__input {
+.task-list .task-list__input {
   display: none;
 }
 
