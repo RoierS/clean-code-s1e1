@@ -53,7 +53,7 @@ li {
   flex-grow: 1;
 }
 
-.add-task-section__wrapper {
+.add-task-section__content {
   display: flex;
 }
 
