@@ -62,8 +62,8 @@ li {
   padding: 0px;
 }
 
-.content__add-button,
-.task-list__button {
+.content__add-btn,
+.task-list__btn {
   background: none;
   border: 0px;
   color: #888;
@@ -73,8 +73,8 @@ li {
   cursor: pointer;
 }
 
-.content__add-button:hover,
-.task-list__button:hover {
+.content__add-btn:hover,
+.task-list__btn:hover {
   color: #3a3a3a;
 }
 
@@ -149,13 +149,13 @@ li {
   width: 226px;
 }
 
-.button__icon {
+.btn__icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__icon:hover {
+.btn__icon:hover {
   transform: rotateZ(0);
 }
 
